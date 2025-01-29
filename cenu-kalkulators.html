@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cenu kalkulators - EventRunner.lv</title>
+    <link rel="stylesheet" href="cenu-kalkulators.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="artursok.png" alt="EventRunner Logo" class="galvenais">
+        </div>
+        <a href="index.html" class="return-home">Atgriezties sākumlapā</a>
+    </header>
+
+    <!-- Cenu kalkulatora sadaļa -->
+    <section class="section" id="cenu-kalkulators">
+        <h2>Cenu kalkulators</h2>
+        <p>Ievadi galamērķi, lai aprēķinātu aptuvenās ceļa izmaksas no Rīgas.</p>
+
+        <!-- Kalkulatora forma -->
+        <div class="container">
+            <label for="destination">Ievadi galamērķi:</label>
+            <input type="text" id="destination" placeholder="Piemēram, Liepāja">
+            <button id="calculateBtn">Aprēķināt izmaksas</button>
+            
+            <!-- Rezultātu parādīšana -->
+            <div id="resultBox" class="result-box">
+                <p id="result"></p>
+                <p id="distance"></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 EventRunner.lv. Visas tiesības aizsargātas.</p>
+    </footer>
+
+    <script src="cenu-kalkulators.js"></script>
+</body>
+</html>

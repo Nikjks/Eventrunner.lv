@@ -1,0 +1,120 @@
+/* Ģenerālie stili */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.8)),
+                url('fonaAttels.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    width: 250px;
+}
+
+.return-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f290c8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.return-home:hover {
+    background-color: #d780b5;
+}
+
+.section {
+    text-align: center;
+    padding: 40px 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #f290c8;
+}
+
+h3 {
+    color: #f290c8;
+}
+
+/* Virsraksts klientu atsauksmēm */
+#klientu-atsauksmes-virsraksts {
+    text-align: left;
+    font-size: 1.5em;
+    color: #f290c8;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.atsauksmes {
+    margin: 20px 0;
+}
+
+.atsauksme {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.atsauksmes-forma {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.atsauksmes-forma input,
+.atsauksmes-forma textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.atsauksmes-forma button {
+    padding: 10px 20px;
+    background-color: #f290c8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.atsauksmes-forma button:hover {
+    background-color: #d780b5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: #aaa;
+}
+
+@media (max-width: 768px) {
+    .atsauksmes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
